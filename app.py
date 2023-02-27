@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-model = pickle.load(open('LogisticRegression.pkl', 'rb'))
+model = pickle.load(open('logisticRegression.pkl', 'rb'))
 df = pickle.load(open('df.pkl', 'rb'))
 
 
